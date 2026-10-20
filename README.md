@@ -23,4 +23,7 @@ then visit `http://localhost:8000`.
 - `index.html` — the game
 - `manifest.json` — PWA metadata (name, icons, colors)
 - `sw.js` — service worker, caches assets for offline play
+- `pig.png` — pig sprite sheet rendered in Blender
+- `blender/pig.blend` — the pig model; `blender/make_pig.py` rebuilds it and re-renders `pig.png`
+  (`pip install bpy pillow`, then `python blender/make_pig.py`)
 - `icon-192.png`, `icon-512.png`, `icon-512-maskable.png` — app icons
